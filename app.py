@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 # let's import the flask
-from flask import Flask, 
-render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for
 import os # importing operating system module
 
 app = Flask(__name__)
